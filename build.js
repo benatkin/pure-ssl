@@ -1,6 +1,16 @@
 var fs    = require('fs'),
     sites = require('./sites').sites;
 
+var siteLines = function() {
+  var lines = [];
+  for (var key in sites) {
+    if (sites.hasOwnProperty(key)) {
+      lines.push('* [' + sites[key].name + '](' + sites[key].url + ')');
+    }
+  }
+  return lines;
+}
+
 fs.readFile('README.md', 'utf8', function(err, data) {
   var lines = data.split("\n"),
       start = 0,
@@ -13,7 +23,7 @@ fs.readFile('README.md', 'utf8', function(err, data) {
       break;
     }
   }
-  lines.splice.apply(lines, [start + 1, end - start - 1, ''].concat(['text here'], ['']));
+  lines.splice.apply(lines, [start + 1, end - start - 1, ''].concat(siteLines(), ['']));
   fs.writeFile('README.md', lines.join("\n"));
 });
 

@@ -5,7 +5,10 @@ the techniques they employ.
 
 # Current Sites
 
-text here
+* [Convore](http://convore.com/)
+* [github](http://github.com/)
+* [Django CMS](http://django-cms.org/)
+* [SecretSocial](http://shh.sh/)
 
 # Adding a site
 
