@@ -30,5 +30,9 @@ exports.sites = {
   "secret-social": {
     name: "SecretSocial",
     url: "http://shh.sh/"
+  },
+  gondor: {
+      name: "Gondor",
+      url: "http://gondor.io"
   }
 }

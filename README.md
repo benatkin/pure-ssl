@@ -9,6 +9,7 @@ the techniques they employ.
 * [github](http://github.com/)
 * [Django CMS](http://django-cms.org/)
 * [SecretSocial](http://shh.sh/)
+* [Gondor](http://gondor.io)
 
 # Adding a site
 
