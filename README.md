@@ -13,7 +13,7 @@ the techniques they employ.
 
 # Adding a site
 
-To add a site, fork the repo, edit build.js, copy an example, and edit
+To add a site, fork the repo, edit sites.js, copy an example, and edit
 it. Then run build.js, commit it, push it, and send a pull request.
 
 # License
