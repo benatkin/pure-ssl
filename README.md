@@ -8,6 +8,7 @@ the techniques they employ.
 * [Convore](http://convore.com/)
 * [github](http://github.com/)
 * [Django CMS](http://django-cms.org/)
+* [Django SHOP](http://django-shop.org/)
 * [SecretSocial](http://shh.sh/)
 * [Gondor](http://gondor.io)
 
