@@ -10,7 +10,8 @@ exports.sites = {
     name: "Convore",
     url: "http://convore.com/",
     tags: {
-      "image proxy": 1,
+      "high traffic": 1,
+      "image proxy": 1
     }
   },
   github: {

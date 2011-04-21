@@ -3,6 +3,7 @@
     "name": "Convore",
     "url": "http://convore.com/",
     "tags": {
+      "high traffic": 1,
       "image proxy": 1
     }
   },
