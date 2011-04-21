@@ -12,10 +12,43 @@ the techniques they employ.
 * [SecretSocial](http://shh.sh/)
 * [Gondor](http://gondor.io)
 
+# Rules for inclusion
+
+* All pages at the domain are HTTPS. Browsing to the HTTP page will
+  redirect even unauthenticated users to the HTTPS page. Subdomains
+  can be non-HTTPS, but if non-HTTPS subdomains use session cookies,
+  the site shall not be included in this directory.
+* No passwords or session cookies can be sent in plain text.
+* No browser warnings: if users can embed HTTP images, they should be
+  proxied to an HTTPS server.
+
+# Tags
+
+## High Traffic
+
+Traffic is high enough that lesser site owners would complain about the
+CPU costs.
+
+## Image Proxy
+
+This is for sites that allow users to embed images.
+[GitHub](http://github.com/) and [Convore](http://convore.com/) both
+change references to external HTTP-only images to references to internal
+HTTPS images. Most browsers show a warning when an HTTPS page contains
+HTTP content and an image proxy keeps this warning from appearing.
+
+## Public Content
+
+Content that can be viewed without being logged in is transmitted via
+HTTPS to people who aren't logged in. This prevents eavesdropping of
+*what* people are looking at on public wifi networks.
+
 # Adding a site
 
 To add a site, fork the repo, edit sites.js, copy an example, and edit
-it. Then run build.js, commit it, push it, and send a pull request.
+it. After that, commit it, push it, and send a pull request. I'll run
+build.js while merging it. Or, optionally, you may run build.js before
+sending the pull request.
 
 # License
 
