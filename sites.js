@@ -27,6 +27,10 @@ exports.sites = {
     name: "Django CMS",
     url: "http://django-cms.org/"
   },
+  "django-shop": {
+    name: "Django SHOP",
+    url: "http://django-shop.org/"
+  },
   "secret-social": {
     name: "SecretSocial",
     url: "http://shh.sh/"
