@@ -12,6 +12,13 @@ the techniques they employ.
 * [SecretSocial](http://shh.sh/)
 * [Gondor](http://gondor.io)
 
+# Adding a site
+
+To add a site, fork the repo, edit sites.js, copy an example, and edit
+it. After that, commit it, push it, and send a pull request. I'll run
+build.js while merging it. Or, optionally, you may run build.js before
+sending the pull request.
+
 # Rules for inclusion
 
 * All pages at the domain are HTTPS. Browsing to the HTTP page will
@@ -42,13 +49,6 @@ HTTP content and an image proxy keeps this warning from appearing.
 Content that can be viewed without being logged in is transmitted via
 HTTPS to people who aren't logged in. This prevents eavesdropping of
 *what* people are looking at on public wifi networks.
-
-# Adding a site
-
-To add a site, fork the repo, edit sites.js, copy an example, and edit
-it. After that, commit it, push it, and send a pull request. I'll run
-build.js while merging it. Or, optionally, you may run build.js before
-sending the pull request.
 
 # License
 
