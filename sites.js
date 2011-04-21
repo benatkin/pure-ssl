@@ -37,7 +37,7 @@ exports.sites = {
     url: "http://shh.sh/"
   },
   gondor: {
-      name: "Gondor",
-      url: "http://gondor.io"
+    name: "Gondor",
+    url: "http://gondor.io"
   }
 }
