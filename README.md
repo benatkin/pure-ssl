@@ -3,6 +3,10 @@
 I'm making a directory of Pure SSL sites, that are unfiresheepable, and
 the techniques they employ.
 
+# HTTPSNow
+
+After starting this I found another directory called [HTTPSnow](https://httpsnow.org/). It's much larger and has some good questions.
+
 # Current Sites
 
 * [Convore](http://convore.com/)
